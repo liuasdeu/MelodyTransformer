@@ -23,7 +23,7 @@ After this step, the data folder and the lmd_full folder under the data folder w
 
 After this step, the lmd_processed folder in the data folder and the music-ckps folder will appear.
 
-## gen.py' generates training data that sometimes violates the formatting standards in ROC settings, modify the data format after gen.py preprocessing.
+## 'gen.py' generates training data that sometimes violates the formatting standards in ROC settings, modify the data format after gen.py preprocessing.
 <div style="background-color: #f1f1f1; padding: 10px; font-size: 1em;">
   <pre>
     <code>
