@@ -79,13 +79,14 @@ A MIDI file appears with the name of the first lyric of each song.
 <div style="background-color: #f1f1f1; padding: 10px; font-size: 1em;">
   <pre>
     <code>
+      cd evaluation
       python cal_similarity.py MelodyTransformer gruth 
       python cal_pitch_diversity.py MelodyTransformer gruth
       python iois.py MelodyTransformer gruth
     </code>
   </pre>
 </div>
-cd evaluation
+
 
 MelodyTransformer is the generated midi file of the melody, gruth is the real melody.
 
