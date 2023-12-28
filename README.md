@@ -1,7 +1,7 @@
 # MelodyTransformer
 MELODYTRANSFORMER: IMPROVING LYRIC-TO-MELODY GENERATION BY CONSIDERING MELODIC FEATURES: is a new methodology for lyric-to-melody generation that proposes the MelodyTransformer, which improves the lyric-to-melody generation quality, to solve the following problems: (1) the lack of innovation and coherence in the generation of musical melodies; (2) the lack of aligned L2M training data to learn the lyric and melody feature alignment adequately.
 ## Data Preprocessing
-$python gen.py lmd_full lmd_full
+$ python gen.py lmd_full lmd_full
 After this step, the data folder and the lmd_full folder under the data folder will appear.
 ## Train the melody language model
 bash melody_lm.sh
