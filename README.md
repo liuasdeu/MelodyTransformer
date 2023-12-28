@@ -23,7 +23,7 @@ After this step, the data folder and the lmd_full folder under the data folder w
 
 After this step, the lmd_processed folder in the data folder and the music-ckps folder will appear.
 
-## 'gen.py' generates training data that sometimes violates the formatting standards in ROC settings, modify the data format after gen.py preprocessing.
+## Modify the data format
 <div style="background-color: #f1f1f1; padding: 10px; font-size: 1em;">
   <pre>
     <code>
@@ -64,7 +64,7 @@ The database folder appears
 ## Prepare the data
 Enter your lyrics and chord progressions in lyric.txt and chord.txt, we have provided data examples in each document.
 
-## L2M - melody generation
+## Lyric-to-melody generation
 <div style="background-color: #f1f1f1; padding: 10px; font-size: 1em;">
   <pre>
     <code>
@@ -75,7 +75,7 @@ Enter your lyrics and chord progressions in lyric.txt and chord.txt, we have pro
 
 A MIDI file appears with the name of the first lyric of each song.
 
-## melody evaluation
+## Melody evaluation
 <div style="background-color: #f1f1f1; padding: 10px; font-size: 1em;">
   <pre>
     <code>
