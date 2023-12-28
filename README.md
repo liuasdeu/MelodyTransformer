@@ -8,6 +8,11 @@ MELODYTRANSFORMER: IMPROVING LYRIC-TO-MELODY GENERATION BY CONSIDERING MELODIC F
     </code>
   </pre>
 </kbd>
+<div style="border: 2px solid #ccc; padding: 10px; border-radius: 5px; width: fit-content;">
+    <p style="font-size: 16px;">
+        这里是方框中的文字内容。
+    </p>
+</div>
 `python gen.py lmd_full lmd_full`
 
 After this step, the data folder and the lmd_full folder under the data folder will appear.
