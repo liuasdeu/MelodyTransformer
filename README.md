@@ -28,7 +28,7 @@ The implementation of the innovation proposed in this paper is achieved through 
   </pre>
 </div>
 
-After this step, the "data" folder and the lmd_full folder under the "data" folder will appear.
+Please prepare your data files, the LMD_full MIDI dataset, and name the dataset as lmd_full. After this step, the "data" folder and the lmd_full folder under the "data" folder will appear.
 
 ## Train the melody language model
 <div style="background-color: #f1f1f1; padding: 10px; font-size: 1em;">
@@ -79,7 +79,7 @@ Here, the melodic language model is utilized for generating short melodic fragme
   </pre>
 </div>
 
-We have provided the database files here, in the "database" folder. You can run the above code to generate your own database files.The database folder appears. 
+We have provided the database files here. You can run the above code to generate your own database files.The database folder appears. 
 
 ## Lyric-to-melody
 
