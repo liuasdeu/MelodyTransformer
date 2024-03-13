@@ -1,5 +1,5 @@
 # MelodyTransformer
-MELODYTRANSFORMER: IMPROVING LYRIC-TO-MELODY GENERATION BY CONSIDERING MELODIC FEATURES: is a new methodology for lyric-to-melody generation that proposes the MelodyTransformer, which improves the lyric-to-melody generation quality, to solve the following problems: (1) the lack of innovation and coherence in the generation of musical melodies; (2) the lack of aligned L2M training data to learn the lyric and melody feature alignment adequately.
+MELODYTRANSFORMER: IMPROVING LYRIC-TO-MELODY GENERATION BY CONSIDERING MELODIC FEATURES: is a new methodology for lyric-to-melody generation that proposes the MelodyTransformer, which improves the lyric-to-melody generation quality, to alleviate the following problems: (1) the lack of innovation and coherence in the generation of musical melodies; (2) the lack of aligned L2M training data to learn the lyric and melody feature alignment adequately.
 
 ## Environment Setup:
 <div style="background-color: #f1f1f1; padding: 10px; font-size: 1em;">
