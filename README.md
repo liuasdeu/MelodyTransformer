@@ -1,6 +1,15 @@
 # MelodyTransformer
 MELODYTRANSFORMER: IMPROVING LYRIC-TO-MELODY GENERATION BY CONSIDERING MELODIC FEATURES: is a new methodology for lyric-to-melody generation that proposes the MelodyTransformer, which improves the lyric-to-melody generation quality, to solve the following problems: (1) the lack of innovation and coherence in the generation of musical melodies; (2) the lack of aligned L2M training data to learn the lyric and melody feature alignment adequately.
 
+## The innovation proposed in the paper is implemented through a local installation of Fairseq. Therefore, it is recommended to proceed with the local installation of Fairseq first.
+<div style="background-color: #f1f1f1; padding: 10px; font-size: 1em;">
+  <pre>
+    <code>
+      cd fairseq
+      pip install --editable ./
+    </code>
+  </pre>
+</div>
 ## Data Preprocessing
 <div style="background-color: #f1f1f1; padding: 10px; font-size: 1em;">
   <pre>
@@ -10,7 +19,7 @@ MELODYTRANSFORMER: IMPROVING LYRIC-TO-MELODY GENERATION BY CONSIDERING MELODIC F
   </pre>
 </div>
 
-After this step, the data folder and the lmd_full folder under the data folder will appear.
+After this step, the "data" folder and the lmd_full folder under the "data" folder will appear.
 
 ## Train the melody language model
 <div style="background-color: #f1f1f1; padding: 10px; font-size: 1em;">
@@ -21,7 +30,7 @@ After this step, the data folder and the lmd_full folder under the data folder w
   </pre>
 </div>
 
-After this step, the lmd_processed folder in the data folder and the music-ckps folder will appear.
+After this step, the lmd_processed folder in the "data" folder and the "music-ckps" folder will appear.
 
 ## Modify the data format
 <div style="background-color: #f1f1f1; padding: 10px; font-size: 1em;">
@@ -45,7 +54,7 @@ Maj.notes and min.notes appear in the utils folder.
   </pre>
 </div>
 
-This step takes a long time, so we suggest splitting the maj.notes and min.notes files.
+Here, the melodic language model is utilized for generating short melodic fragments. Upon successful execution, the files "maj_chorus.notes", "maj_verse.notes", "min_chorus.notes", and "min_verse.notes" will be generated in the "utils" folder.
 
 ## Store the melody piece into the database
 <div style="background-color: #f1f1f1; padding: 10px; font-size: 1em;">
@@ -59,7 +68,7 @@ This step takes a long time, so we suggest splitting the maj.notes and min.notes
   </pre>
 </div>
 
-The database folder appears
+We have provided the database files here, in the "database" folder. You can run the above code to generate your own database files.The database folder appears. 
 
 ## Prepare the data
 Enter your lyrics and chord progressions in lyric.txt and chord.txt, we have provided data examples in each document.
@@ -89,4 +98,5 @@ A MIDI file appears with the name of the first lyric of each song.
 
 
 MelodyTransformer is the generated midi file of the melody, gruth is the real melody.
+In the "evaluation" folder, we provide MIDI files generated using the proposed melodic language model in this paper, along with the corresponding real melody files.
 
