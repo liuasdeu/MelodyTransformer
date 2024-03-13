@@ -18,6 +18,7 @@ The implementation of the innovation proposed in this paper is achieved through 
     </code>
   </pre>
 </div>
+[Click here](https://drive.google.com/file/d/1qQrIp7nQB5GpmaTnIZx8NztBaowlHdud/view?usp=sharing) to download the fairseq files
 
 ## Data Preprocessing
 <div style="background-color: #f1f1f1; padding: 10px; font-size: 1em;">
