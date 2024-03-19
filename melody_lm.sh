@@ -26,6 +26,7 @@ fairseq-train data/lmd_processed/   \
             --warmup-updates 4000 --lr 0.0001  --attention-dropout 0.1  \
             --dropout 0.1  --weight-decay 0.01 \
             --save-dir music-ckps-test \
+            --tensorboard-logdir logs \
             --batch-size 1  --max-target-positions 1024  --skip-invalid-size-inputs-valid-test \
             --log-interval 10 --patience 20 \
             --no-epoch-checkpoints --best-checkpoint-metric 'ppl' | tee music-ckps/log.txt
